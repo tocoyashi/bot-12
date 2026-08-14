@@ -18,7 +18,7 @@ TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN') or os.environ.get('BOT_TOKEN')
 CHANNEL_ID = os.environ.get('CHANNEL_ID')
 
 TIMEFRAME = '15m'
-TOP_N_COINS = 50
+TOP_N_COINS = 40
 LEVERAGE = 15
 
 # Targets & SL (User specified)
